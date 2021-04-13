@@ -1,0 +1,15 @@
+import Otimizador as ot 
+
+asa = ot.criar_asas(env = 4.2, chord = (0.3, 0.5), offset = (0.01, 0.05))
+
+asas = ot.combinador(asa, modo = 'classic', dados = 'DataFrame')
+
+pontuação = self.pontuacao = 8.3 * 2.7182818 ** (self.carga_paga/6)
+
+resultado = asas.analisador(metodo_massa = 'MTOW', helice = 'APC 13X6 ', pontuacao)
+
+resultado.visualizar(indice = (False, 10), polar = (True, 'CLxA'), tracao = (True))
+
+asas.visualizar(indice = 1, modo = 'isometrico')
+
+resultado.save_excel()

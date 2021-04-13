@@ -1,0 +1,8 @@
+load asa.avl
+oper
+a
+a 14.000000
+x
+ft
+resultado.txt
+quit
